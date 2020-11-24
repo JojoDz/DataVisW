@@ -1,5 +1,5 @@
 # DataVisW
-<strong>Projet : Créer une visualisation en temps réel</strong> </b>
+Projet : Créer une visualisation en temps réel</b>
 </b>
 Equipe : Noémie, Salma et Joanna </b>
 </b>
@@ -9,7 +9,7 @@ de violence sexuelle et/ou violence physique par un partenaire intime en 2019 </
 </b>
 Forme : 
 </b>
-Langage : Javascript 
+Langage : Javascript </b>
 Bibliothèque : 
 
 
