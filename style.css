@@ -11,3 +11,6 @@ img {
   height: 70vh;
   color: pink;
 }
+#slogan{
+  visibility: hidden;
+}
