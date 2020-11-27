@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 20px;
+
 }
 
 body {
@@ -29,9 +30,16 @@ p{
   font-size : 22px;
 }
 
+.imagecontainer{
+  border:2px solid yellow;
+}
+
 #wecandoit{
   width: 80vw;
   height: 50vh;
+  border:2px solid yellow;
+  padding-left: 0;
+  padding-right: 0;
   /* sera au 1er rang */
   z-index:1;
   /* Animation CSS de gauche à droite en jouant avec sa position sur l'axe des X*/
