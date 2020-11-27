@@ -11,5 +11,5 @@ Forme : Chaque seconde apparaissent 7 bras retroussés dans une zone définie et
 Langage : Javascript
 
 
-
+Prochaine étape : Intégrer les bras dans l'image wecandoit svg via Js, aggrandir la zone autour en utilisant inkscape. 
 
