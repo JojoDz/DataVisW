@@ -8,11 +8,45 @@ body {
   height: 50%;
   /* border: 2px solid white; */
   text-align: center;
-  background-color: midnightblue;
+  background: midnightblue;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(2,0,36,1)), color-stop(35%, rgba(9,9,121,1)), to(rgba(25, 25, 112, 1)));
+  background: -o-linear-gradient(top, rgba(2,0,36,1)0%, rgba(9,9,121,1)35%, rgba(25, 25, 112, 1)100%);
+  background: linear-gradient(180deg, rgba(2,0,36,1)0%, rgba(9,9,121,1)35%, rgba(25, 25, 112, 1)100%);
 }
 h1,p{
   color: white
 }
+
+h1{
+  /* changement de la police pour le titre */
+  font-family: 'Cardo', serif;
+  font-size: 60px;
+}
+
+p{
+  /* changement de la police pour les paragraphes */
+  font-family: 'Montserrat', sans-serif;
+  font-size : 22px;
+}
+
+#wecandoit{
+  width: 80vw;
+  height: 50vh;
+  /* sera au 1er rang */
+  z-index:1;
+  /* Animation CSS de gauche à droite en jouant avec sa position sur l'axe des X*/
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  0% {
+    transform: translateX(-9999px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 
 #slogan{
   display: none;
