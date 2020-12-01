@@ -15,7 +15,7 @@ function randomMax(max){
 }
 
 function armDisplay(){
-    armAppear.innerHTML += '<img src="bras.svg" style="margin-left:'+ randomMax(50) +'px"/>'
+    armAppear.innerHTML += '<img src="bras.svg" style="margin-left:'+ randomMax(50) +'px; margin-top: '+ randomMax(50) + 'px; margin-right: '+ randomMax(50) +'px; margin-bottom: '+ randomMax(50) +'px; "/>'
 }
 setTimeout(armDisplay,3500);
 setInterval(armDisplay, 1000);
