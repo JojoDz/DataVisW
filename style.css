@@ -81,6 +81,7 @@ p{
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.05em; /* Adjust as needed */
+  font-weight: bold;
   animation:
     typing 10s steps(98, end),
     blink-caret .5s step-end infinite;
@@ -95,5 +96,38 @@ p{
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #ffdf00 }
+  50% { border-color: transparent }
+}
+/* COMPTEUR */
+.main_container {
+  /* height: 46px; */
+  width: auto;
+  padding: 3px;
+  margin: 0 auto;
+  max-width: 300px;
+  background-color: transparent;
+  align-content: center;
+}
+.container_inner {
+  height: auto;
+  border: none;
+  background-color: transparent;
+  max-width: 290px;
+  vertical-align: center;
+  padding-top: 12px;
+  padding-left: 10px;
+  align-content: center;
+}
+ .num_tiles {
+  width:30px;
+  height: 30px;
+  background-color: #888888;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  line-height: 20px;
+  padding: 3px;
+  margin: 1.5px;
+  font-family: verdana;
+  vertical-align: center;
 }
