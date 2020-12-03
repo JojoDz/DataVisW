@@ -34,7 +34,7 @@ function randomMax(max){
 }
 
 function armDisplay(){
-    armAppear.innerHTML += '<img src="bras.svg" style="margin-left:'+ randomMax(50) +'px; margin-top: '+ randomMax(50) + 'px; margin-right: '+ randomMax(50) +'px; margin-bottom: '+ randomMax(50) +'px; width: 10%"/>'
+    armAppear.innerHTML += '<img src="bras2.svg" style="margin-left:'+ randomMax(50) +'px; margin-top: '+ randomMax(50) + 'px; margin-right: '+ randomMax(50) +'px; margin-bottom: '+ randomMax(50) +'px; width: 3%"/>'
 }
 setTimeout(armDisplay,3500);
 setInterval(armDisplay, 1000);
